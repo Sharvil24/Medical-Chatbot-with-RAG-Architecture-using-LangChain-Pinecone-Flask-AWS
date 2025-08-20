@@ -3,14 +3,6 @@
 ## 🏥 Overview
 A sophisticated Medical Chatbot leveraging Retrieval-Augmented Generation (RAG) architecture with LangChain, Pinecone Vector DB, and Hugging Face embeddings. The system features an automated CI/CD pipeline using GitHub Actions, Docker, and AWS (ECR, EC2) for seamless deployment of a Flask-based web application that intelligently queries medical knowledge from PDF documents.
 
-## 🌟 Key Features
-- **RAG Architecture**: Combines retrieval and generation for accurate medical information
-- **Vector Database**: Utilizes Pinecone for efficient semantic search
-- **LLM Integration**: Powered by Meta Llama 3.2 for intelligent responses
-- **Automated Deployment**: CI/CD pipeline with GitHub Actions and AWS
-- **Web Interface**: User-friendly Flask application with real-time chat
-- **Containerized**: Docker-based deployment for consistency and scalability
-
 ## 🏗️ System Architecture
 
 ![Medical Chatbot Architecture](https://github.com/user-attachments/assets/d65f3d5d-777b-4b5c-8661-ca41432c332b)
@@ -19,6 +11,14 @@ The architecture consists of three main components:
 1. **Development Environment**: Source code, medical PDFs, and Flask UI
 2. **RAG Processing Pipeline**: Document processing, embeddings, and vector storage
 3. **AWS Infrastructure**: Containerized deployment with ECR and EC2
+
+## 🌟 Key Features
+- **RAG Architecture**: Combines retrieval and generation for accurate medical information
+- **Vector Database**: Utilizes Pinecone for efficient semantic search
+- **LLM Integration**: Powered by Meta Llama 3.2 for intelligent responses
+- **Automated Deployment**: CI/CD pipeline with GitHub Actions and AWS
+- **Web Interface**: User-friendly Flask application with real-time chat
+- **Containerized**: Docker-based deployment for consistency and scalability
 
 ## 📸 Final Product
 
